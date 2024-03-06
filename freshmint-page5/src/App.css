@@ -1,0 +1,397 @@
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.link{
+  color: #000;
+}
+
+.nav,.nav-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Common styles */
+.Ahoy, .Events, .Community, .Profiles, .button-1 {
+  
+  cursor: pointer;
+}
+
+/* Component-specific styles */
+.Rectangle-18 {
+  max-width: 1080px;
+  height: auto; 
+  padding: 10px 212px;
+  background-color: #fff7ef;
+  
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.Ahoy, .Events, .Community, .Profiles {
+  width: calc(25% - 16px); 
+  height: 24px; 
+  font-size: 20px;
+  color: #000;
+  margin: 8px; 
+}
+.Ahoy{
+  color: #ed6d64;
+}
+.Community {
+  width: calc(33.33% - 16px); 
+}
+
+.Profiles {
+  width: calc(20% - 16px); }
+
+.button-1 {
+  width: 148px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  padding: 8px 25px;
+  border-radius: 20px;
+  background-color: #ed6d64;
+  cursor: grab;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .Ahoy, .Events, .Community, .Profiles {
+    width: calc(50% - 16px); /* Adjust width for 2 equal columns with margins */
+  }
+}
+
+
+.StarkCon-IIT-Madras-StarkWare-x-Web3Chennai {
+  width: 998px;
+  height: 60px;
+  margin: 40px 9px 16px 0px ;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Thu-22-Dec-1500---1800-GMT530 {
+  width: 448px;
+  height: 39px;
+  margin: 16px 21px 0 275px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ed6d64;
+}
+
+.IITM-Research-Park {
+  width: 241px;
+  height: 39px;
+  margin: 55px 2px 40px 378px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.starkconpg-2 {
+  width: 1016px;
+  height: 500px;
+  margin: 40px 0 0 0px;
+  border-radius: 15px;
+  
+}
+
+.Frame-26 {
+  width: 199px;
+  height: 74px;
+  gap: 10px;
+  margin: 40px 20px 40px 1px;
+  padding: 12px 20px ;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ed6d64;
+}
+.Frame-27 {
+  width: 246px;
+  height: 74px;
+  gap: 10px;
+  margin: 40px 20px;
+  padding: 12px 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ed6d64;
+}
+.Frame-29 {
+  width: 258px;
+  height: 74px;
+  gap: 10px;
+  margin: 40px 9px 40px 20px;
+  padding: 12px 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ed6d64;
+}
+.Frame-28 {
+  width: 177px;
+  height: 74px;
+  gap: 10px;
+  margin: 40px 75px 40px 20px;
+  padding: 12px 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ed6d64;
+}
+.box-1-4{
+  width: 960px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+.box-1-4 >div {
+  
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.Ellipse-11 {
+  width: 50px;
+  height: 50px;
+  flex-grow: 0;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 8px;
+}
+.Starkcon {
+  width:99px;
+  height: 33px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  margin-left:60px;
+}
+
+.chaalpritam {
+  width:146px;
+  height: 33px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  margin-left:50px;
+}
+.Organizer {
+  width: 50px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-left: 60px;
+  margin-top: 4px;
+  opacity: 90%;
+}
+
+.community-partner {
+  width: 188px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-left: 60px;
+  margin-top: 4px;
+  opacity: 90%;
+}
+
+.Registration {
+  width: 162px;
+  height: 39px;
+  margin: 40px 20px 60px 1px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  
+}
+.View-location-in-Google-Map {
+  width: 230px;
+  height: 24px;
+  margin: 47px 2px 28px 450px;
+  font-family: Poppins;
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: 600;
+  text-align: right;
+  color: #000;
+  padding-right: 0px;
+}
+.reg{
+  display: flex;
+  
+}
+
+.Hello-Please{
+  width: 520px;
+  height: 66px;
+  margin: 0px 97px 40px 1px;
+  font-family: Poppins;
+  font-size: 22px;
+  text-align: left;
+  color: #000;
+}
+
+.Frame-89 {
+  width: 220px;
+  height: 30px;
+  text-align: center;
+  gap: 2px;
+  padding: 13px 18px;
+  border-radius: 50px;
+  background-color: #000;
+}
+.Share-this-event {
+  width: 120px;
+  height: 33px;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  text-align: center;
+}
+.hello-share{
+  display: flex;
+}
+
+
+
+.form {
+  width: 500px;
+  height: 700px;
+  margin: 40px 2px 40px 0px;
+  padding: 60px 310px 60px 60px;
+  border-radius: 15px;
+  background-color: #f7ebeb;
+}
+
+input[type=text], select {
+  width:643px;
+  padding: 14px 20px;
+  margin: 10px 2px 20px 10px ;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 100%;
+}
+.rate{
+  font-weight: 700;
+}
+
+input[type=submit] {
+  width: 172px;
+  height: 59px;
+  background-color:black;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0a0b0a;
+}
+
+.Event-Information {
+  width: 236px;
+  height: 39px;
+  margin: 40px 47px 20px 1px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #000;
+}
+.StarkCon-comes{
+  width: 900px;
+  height: 892px;
+  margin: 20px 115px 0 1px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.successful {
+  width: 323px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 11px 15px;
+  border-radius: 15px;
+  background-color: #f7ebeb;
+}
+.successfully {
+  width: 300px;
+  height: 40px;
+  margin: 40px 2px 40px 1px;
+  padding: 30px 479px 30px 30px;
+  border-radius: 15px;
+  background-color: #f7ebeb;
+  font-size: 24px;
+  font-weight: 500;
+  white-space: nowrap;
+}
